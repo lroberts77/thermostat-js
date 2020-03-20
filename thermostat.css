@@ -8,6 +8,39 @@ font-style: italic;
 font-family: 'Times New Roman', Times, serif;
 
 }
+.button1 {
+  background-color: white;
+  color: black;
+  border: white;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: white;
+}
+.button2:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: white;
+}
+.button3:hover {
+  background-color:red;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
 
 .low_usage {
     color: blue;
