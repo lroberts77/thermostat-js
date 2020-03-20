@@ -1,11 +1,25 @@
+body {
+  height: 100%;
+  background: linear-gradient(90deg, white 60%, black 40%);
+}
+
+section {
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
 .low_usage {
-    color: green;
+    color: blue;
+    font-size: 90px;
   }
   
   .medium_usage {
     color: black;
+    font-size: 90px;
   }
   
   .high_usage {
     color: red;
+    font-size: 90px;
   }

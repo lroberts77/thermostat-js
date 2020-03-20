@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- <link rel='stylesheet' type='text/css' href='thermostat.css'> -->
+    <link rel='stylesheet' type='text/css' href='thermostat.css'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thermostat</title>
+    <title>Liam's Thermostat</title>
 </head>
 <body>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <section>
-        <h1 id="temperature"></h1>
+        <div>
+            <h1>Thermostat temp: <span id="temperature"></span></h1>
+            <h1>Current temperature: <span id="current-temperature">20</span></h1>
+        </div>
+        <form id="select-city">
+            <input id="current-city" type="text" placeholder="enter city name"></input>
+            <input type="submit"></input>
+        </form>
         <p>
-            <button id="temp-up">+</button>
-            <button id="temp-down">-</button>
-            <button id="temp-reset">reset</button>
+            <div>
+                <button id="temp-up">+</button>
+                <button id="temp-down">-</button>
+                <button id="temp-reset">reset</button>
+            </div>
             power saving mode is <span id="power-saving-status">on</span>
-            <button id="powersaving-on">PSM on</button>
-            <button id="powersaving-off">PSM off</button>
+            <div>
+                <button id="powersaving-on">PSM on</button>
+            </div>
+            <div>
+                <button id="powersaving-off">PSM off</button>
+            </div>
         </p>
     </section>
-    <script src="/Users/student/Desktop/projects2/thermostat/jasmine/src/Thermostat.js"></script>
-    <script src="/Users/student/Desktop/projects2/thermostat/interface.js"></script>
+    <script src="/Users/student/Desktop/projects2/thermostat-js/jasmine/src/Thermostat.js"></script>
+    <script src="/Users/student/Desktop/projects2/thermostat-js/interface.js"></script>
     </body>
 </html>
