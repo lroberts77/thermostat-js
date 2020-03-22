@@ -119,6 +119,7 @@ body {
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-indent: 650px;
+    height: 20px;
   }
 
   h4 {
@@ -137,8 +138,7 @@ body {
   .box {
     height: 30px;
     width: 470px;
-    
-}
+    }
 .red {
   background-color: crimson;
 }
