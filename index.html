@@ -9,31 +9,39 @@
 <body>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <section>
+    <!-- <section> -->
         <div>
             <h1>Thermostat temp: <span id="temperature"></span></h1>
             <div>
-                <button class="button button1" id="temp-up">+</button>
-                <button class="button button1" id="temp-down">-</button>
-                <button class="button button1" id="temp-reset">reset</button>
+                <h5>
+                    <button class="button button1" id="temp-up">+</button>
+                    <button class="button button1" id="temp-down">-</button>
+                    <button class="button button4" id="temp-reset">reset</button>
+                </h5>
             </div>
-            <h1>Current temperature: <span id="current-temperature">20</span></h1>
+            <div class="box red"></div>
+            <h6>Chosen city temperature: <span id="current-temperature">20</span></h6>
         </div>
+        <section>
+            <div>
         <form id="select-city">
             <input id="current-city" type="text" placeholder="enter city name"></input>
             <input type="submit"></input>
         </form>
         <p>
-
-            power saving mode is <span id="power-saving-status">on</span>
-            <div>
-                <button class="button button2" id="powersaving-on">PSM on</button>
+            <h3>
+            
+                power saving mode <span id="power-saving-status"></span>
+            </h3>
+        <h4>
+            <button class="button button2" id="powersaving-on">on</button> 
+            <button class="button button3" id="powersaving-off">off</button>
+        </h4>
             </div>
-            <div>
-                <button class="button button3" id="powersaving-off">PSM off</button>
-            </div>
+        </section>
         </p>
-    </section>
+    <!-- </section> -->
+    <h2>degrees</h2>
     <script src="/Users/student/Desktop/projects2/thermostat-js/jasmine/src/Thermostat.js"></script>
     <script src="/Users/student/Desktop/projects2/thermostat-js/interface.js"></script>
     </body>
